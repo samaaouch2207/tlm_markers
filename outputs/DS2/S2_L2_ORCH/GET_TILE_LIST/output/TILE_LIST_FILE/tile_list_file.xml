@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Tile_List xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="/dpc/app/s2ipf/GET_TILE_LIST/06.04.00/scripts/../../../schemas/15.00.00/ICD/DICO/1.0/IPF/ipf/File_Tile_List.xsd">
+  <Number_Of_Tiles>1</Number_Of_Tiles>
+  <List_Tile_Id Tile_Number="1">
+    <Tile_Id>38SND</Tile_Id>
+    <List_Detectors_HR/>
+  </List_Tile_Id>
+</Tile_List>
