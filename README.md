@@ -26,6 +26,12 @@ conda deactivate
 ```
 
 ## Launch TLM conversion using KAYRROS method: 
+### Prerequisities
+Clone the Git repository from KAYRROS team [Kayrros/sentinel-2-jp2-tlm](https://github.com/Kayrros/sentinel-2-jp2-tlm.git):  
+```bash 
+git clone https://github.com/Kayrros/sentinel-2-jp2-tlm.git
+```
+
 ### Install docker 
 ```bash 
 cd /mount/opt-mpc/s2mpc/work/REPROCESSING/OMPC-3238/sentinel-2-jp2-tlm/s2tlm-indexer
