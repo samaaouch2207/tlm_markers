@@ -1,0 +1,700 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<xfdu:XFDU xmlns:xfdu="urn:ccsds:schema:xfdu:1" version="esa/safe/sentinel-1.0/sentinel-2/msi/archive_l0_datastrip" xmlns:gml="http://www.opengis.net/gml" xmlns:safe="http://www.esa.int/safe/sentinel-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:ccsds:schema:xfdu:1 /dpc/app/s2ipf/FORMAT_METADATA_GR_L0C/01.09.00/scripts/../../../xmlschemas/SAFE/xsd/int/esa/safe/sentinel-1.0/xfdu.xsd">
+
+  <informationPackageMap>
+    <xfdu:contentUnit dmdID="acquisitionPeriod platform" pdiID="processing" textInfo="SENTINEL-2 MSI Level-2A_Tile PDI" unitType="Product_Level-2A">
+      <xfdu:contentUnit ID="S2_Level-2A_Tile_Metadata_Unit" repID="S2_Level-2A_Tile_Schema" unitType="Metadata Unit">
+        <dataObjectPointer dataObjectID="S2_Level-2A_Tile_Metadata"/>
+      </xfdu:contentUnit>
+      <xfdu:contentUnit ID="IMG_DATA" textInfo="Image Data container">
+        <xfdu:contentUnit ID="IMG_DATA_Band_60m_1_Unit" dmdID="measurementOrbitReference measurementFrameSet" unitType="Measurement Data Unit">
+          <dataObjectPointer dataObjectID="IMG_DATA_Band_60m_1_Band"/>
+        </xfdu:contentUnit>
+        <xfdu:contentUnit ID="IMG_DATA_Band_60m_1_Unit" dmdID="measurementOrbitReference measurementFrameSet" unitType="Measurement Data Unit">
+          <dataObjectPointer dataObjectID="IMG_DATA_Band_60m_1_Band"/>
+        </xfdu:contentUnit>
+        <xfdu:contentUnit ID="IMG_DATA_Band_60m_2_Unit" dmdID="measurementOrbitReference measurementFrameSet" unitType="Measurement Data Unit">
+          <dataObjectPointer dataObjectID="IMG_DATA_Band_60m_2_Band"/>
+        </xfdu:contentUnit>
+        <xfdu:contentUnit ID="IMG_DATA_R60mUnit" dmdID="measurementOrbitReference measurementFrameSet" unitType="Measurement Data Unit">
+          <dataObjectPointer dataObjectID="IMG_DATA_R60mBand"/>
+        </xfdu:contentUnit>
+        <xfdu:contentUnit ID="IMG_DATA_Band_60m_4_Unit" dmdID="measurementOrbitReference measurementFrameSet" unitType="Measurement Data Unit">
+          <dataObjectPointer dataObjectID="IMG_DATA_Band_60m_4_Band"/>
+        </xfdu:contentUnit>
+        <xfdu:contentUnit ID="IMG_DATA_Band_60m_3_Unit" dmdID="measurementOrbitReference measurementFrameSet" unitType="Measurement Data Unit">
+          <dataObjectPointer dataObjectID="IMG_DATA_Band_60m_3_Band"/>
+        </xfdu:contentUnit>
+        <xfdu:contentUnit ID="IMG_DATA_R60mUnit" dmdID="measurementOrbitReference measurementFrameSet" unitType="Measurement Data Unit">
+          <dataObjectPointer dataObjectID="IMG_DATA_R60mBand"/>
+        </xfdu:contentUnit>
+        <xfdu:contentUnit ID="IMG_DATA_Band_60m_5_Unit" dmdID="measurementOrbitReference measurementFrameSet" unitType="Measurement Data Unit">
+          <dataObjectPointer dataObjectID="IMG_DATA_Band_60m_5_Band"/>
+        </xfdu:contentUnit>
+        <xfdu:contentUnit ID="IMG_DATA_R60mUnit" dmdID="measurementOrbitReference measurementFrameSet" unitType="Measurement Data Unit">
+          <dataObjectPointer dataObjectID="IMG_DATA_R60mBand"/>
+        </xfdu:contentUnit>
+        <xfdu:contentUnit ID="IMG_DATA_Band_60m_1_Unit" dmdID="measurementOrbitReference measurementFrameSet" unitType="Measurement Data Unit">
+          <dataObjectPointer dataObjectID="IMG_DATA_Band_60m_1_Band"/>
+        </xfdu:contentUnit>
+        <xfdu:contentUnit ID="IMG_DATA_Band_60m_2_Unit" dmdID="measurementOrbitReference measurementFrameSet" unitType="Measurement Data Unit">
+          <dataObjectPointer dataObjectID="IMG_DATA_Band_60m_2_Band"/>
+        </xfdu:contentUnit>
+        <xfdu:contentUnit ID="IMG_DATA_R60mUnit" dmdID="measurementOrbitReference measurementFrameSet" unitType="Measurement Data Unit">
+          <dataObjectPointer dataObjectID="IMG_DATA_R60mBand"/>
+        </xfdu:contentUnit>
+        <xfdu:contentUnit ID="IMG_DATA_Band_60m_6_Unit" dmdID="measurementOrbitReference measurementFrameSet" unitType="Measurement Data Unit">
+          <dataObjectPointer dataObjectID="IMG_DATA_Band_60m_6_Band"/>
+        </xfdu:contentUnit>
+        <xfdu:contentUnit ID="IMG_DATA_Band_60m_2_Unit" dmdID="measurementOrbitReference measurementFrameSet" unitType="Measurement Data Unit">
+          <dataObjectPointer dataObjectID="IMG_DATA_Band_60m_2_Band"/>
+        </xfdu:contentUnit>
+        <xfdu:contentUnit ID="IMG_DATA_Band_60m_3_Unit" dmdID="measurementOrbitReference measurementFrameSet" unitType="Measurement Data Unit">
+          <dataObjectPointer dataObjectID="IMG_DATA_Band_60m_3_Band"/>
+        </xfdu:contentUnit>
+        <xfdu:contentUnit ID="IMG_DATA_Band_10m_1_Unit" dmdID="measurementOrbitReference measurementFrameSet" unitType="Measurement Data Unit">
+          <dataObjectPointer dataObjectID="IMG_DATA_Band_10m_1_Band"/>
+        </xfdu:contentUnit>
+        <xfdu:contentUnit ID="IMG_DATA_Band_10m_2_Unit" dmdID="measurementOrbitReference measurementFrameSet" unitType="Measurement Data Unit">
+          <dataObjectPointer dataObjectID="IMG_DATA_Band_10m_2_Band"/>
+        </xfdu:contentUnit>
+        <xfdu:contentUnit ID="IMG_DATA_R10mUnit" dmdID="measurementOrbitReference measurementFrameSet" unitType="Measurement Data Unit">
+          <dataObjectPointer dataObjectID="IMG_DATA_R10mBand"/>
+        </xfdu:contentUnit>
+        <xfdu:contentUnit ID="IMG_DATA_R10mUnit" dmdID="measurementOrbitReference measurementFrameSet" unitType="Measurement Data Unit">
+          <dataObjectPointer dataObjectID="IMG_DATA_R10mBand"/>
+        </xfdu:contentUnit>
+        <xfdu:contentUnit ID="IMG_DATA_Band_10m_3_Unit" dmdID="measurementOrbitReference measurementFrameSet" unitType="Measurement Data Unit">
+          <dataObjectPointer dataObjectID="IMG_DATA_Band_10m_3_Band"/>
+        </xfdu:contentUnit>
+        <xfdu:contentUnit ID="IMG_DATA_Band_10m_4_Unit" dmdID="measurementOrbitReference measurementFrameSet" unitType="Measurement Data Unit">
+          <dataObjectPointer dataObjectID="IMG_DATA_Band_10m_4_Band"/>
+        </xfdu:contentUnit>
+        <xfdu:contentUnit ID="IMG_DATA_R10mUnit" dmdID="measurementOrbitReference measurementFrameSet" unitType="Measurement Data Unit">
+          <dataObjectPointer dataObjectID="IMG_DATA_R10mBand"/>
+        </xfdu:contentUnit>
+        <xfdu:contentUnit ID="IMG_DATA_R20mUnit" dmdID="measurementOrbitReference measurementFrameSet" unitType="Measurement Data Unit">
+          <dataObjectPointer dataObjectID="IMG_DATA_R20mBand"/>
+        </xfdu:contentUnit>
+        <xfdu:contentUnit ID="IMG_DATA_Band_20m_6_Unit" dmdID="measurementOrbitReference measurementFrameSet" unitType="Measurement Data Unit">
+          <dataObjectPointer dataObjectID="IMG_DATA_Band_20m_6_Band"/>
+        </xfdu:contentUnit>
+        <xfdu:contentUnit ID="IMG_DATA_Band_20m_3_Unit" dmdID="measurementOrbitReference measurementFrameSet" unitType="Measurement Data Unit">
+          <dataObjectPointer dataObjectID="IMG_DATA_Band_20m_3_Band"/>
+        </xfdu:contentUnit>
+        <xfdu:contentUnit ID="IMG_DATA_Band_20m_2_Unit" dmdID="measurementOrbitReference measurementFrameSet" unitType="Measurement Data Unit">
+          <dataObjectPointer dataObjectID="IMG_DATA_Band_20m_2_Band"/>
+        </xfdu:contentUnit>
+        <xfdu:contentUnit ID="IMG_DATA_Band_20m_2_Unit" dmdID="measurementOrbitReference measurementFrameSet" unitType="Measurement Data Unit">
+          <dataObjectPointer dataObjectID="IMG_DATA_Band_20m_2_Band"/>
+        </xfdu:contentUnit>
+        <xfdu:contentUnit ID="IMG_DATA_Band_20m_1_Unit" dmdID="measurementOrbitReference measurementFrameSet" unitType="Measurement Data Unit">
+          <dataObjectPointer dataObjectID="IMG_DATA_Band_20m_1_Band"/>
+        </xfdu:contentUnit>
+        <xfdu:contentUnit ID="IMG_DATA_R20mUnit" dmdID="measurementOrbitReference measurementFrameSet" unitType="Measurement Data Unit">
+          <dataObjectPointer dataObjectID="IMG_DATA_R20mBand"/>
+        </xfdu:contentUnit>
+        <xfdu:contentUnit ID="IMG_DATA_Band_20m_3_Unit" dmdID="measurementOrbitReference measurementFrameSet" unitType="Measurement Data Unit">
+          <dataObjectPointer dataObjectID="IMG_DATA_Band_20m_3_Band"/>
+        </xfdu:contentUnit>
+        <xfdu:contentUnit ID="IMG_DATA_Band_20m_5_Unit" dmdID="measurementOrbitReference measurementFrameSet" unitType="Measurement Data Unit">
+          <dataObjectPointer dataObjectID="IMG_DATA_Band_20m_5_Band"/>
+        </xfdu:contentUnit>
+        <xfdu:contentUnit ID="IMG_DATA_R20mUnit" dmdID="measurementOrbitReference measurementFrameSet" unitType="Measurement Data Unit">
+          <dataObjectPointer dataObjectID="IMG_DATA_R20mBand"/>
+        </xfdu:contentUnit>
+        <xfdu:contentUnit ID="IMG_DATA_Band_20m_1_Unit" dmdID="measurementOrbitReference measurementFrameSet" unitType="Measurement Data Unit">
+          <dataObjectPointer dataObjectID="IMG_DATA_Band_20m_1_Band"/>
+        </xfdu:contentUnit>
+        <xfdu:contentUnit ID="IMG_DATA_Band_20m_1_Unit" dmdID="measurementOrbitReference measurementFrameSet" unitType="Measurement Data Unit">
+          <dataObjectPointer dataObjectID="IMG_DATA_Band_20m_1_Band"/>
+        </xfdu:contentUnit>
+        <xfdu:contentUnit ID="IMG_DATA_R20mUnit" dmdID="measurementOrbitReference measurementFrameSet" unitType="Measurement Data Unit">
+          <dataObjectPointer dataObjectID="IMG_DATA_R20mBand"/>
+        </xfdu:contentUnit>
+        <xfdu:contentUnit ID="IMG_DATA_Band_20m_4_Unit" dmdID="measurementOrbitReference measurementFrameSet" unitType="Measurement Data Unit">
+          <dataObjectPointer dataObjectID="IMG_DATA_Band_20m_4_Band"/>
+        </xfdu:contentUnit>
+      </xfdu:contentUnit>
+      <xfdu:contentUnit ID="QI_DATA" textInfo="Quality control container">
+        <xfdu:contentUnit ID="QUALITMask_Band_1.m_Unit" unitType="Data Unit">
+          <dataObjectPointer dataObjectID="QUALITMask_Band_1.m_Data"/>
+        </xfdu:contentUnit>
+        <xfdu:contentUnit ID="QUALITMask_Band_6.m_Unit" unitType="Data Unit">
+          <dataObjectPointer dataObjectID="QUALITMask_Band_6.m_Data"/>
+        </xfdu:contentUnit>
+        <xfdu:contentUnit ID="QUALITMask_Band_8.m_Unit" unitType="Data Unit">
+          <dataObjectPointer dataObjectID="QUALITMask_Band_8.m_Data"/>
+        </xfdu:contentUnit>
+        <xfdu:contentUnit ID="DETFOOMask_Band_0.m_Unit" unitType="Data Unit">
+          <dataObjectPointer dataObjectID="DETFOOMask_Band_0.m_Data"/>
+        </xfdu:contentUnit>
+        <xfdu:contentUnit ID="DETFOOMask_Band_1.m_Unit" unitType="Data Unit">
+          <dataObjectPointer dataObjectID="DETFOOMask_Band_1.m_Data"/>
+        </xfdu:contentUnit>
+        <xfdu:contentUnit ID="DETFOOMask_Band_6.m_Unit" unitType="Data Unit">
+          <dataObjectPointer dataObjectID="DETFOOMask_Band_6.m_Data"/>
+        </xfdu:contentUnit>
+        <xfdu:contentUnit ID="DETFOOMask_Band_8.m_Unit" unitType="Data Unit">
+          <dataObjectPointer dataObjectID="DETFOOMask_Band_8.m_Data"/>
+        </xfdu:contentUnit>
+        <xfdu:contentUnit ID="QUALITMask_Band_0.m_Unit" unitType="Data Unit">
+          <dataObjectPointer dataObjectID="QUALITMask_Band_0.m_Data"/>
+        </xfdu:contentUnit>
+        <xfdu:contentUnit ID="DETFOOMask_Band_1.m_Unit" unitType="Data Unit">
+          <dataObjectPointer dataObjectID="DETFOOMask_Band_1.m_Data"/>
+        </xfdu:contentUnit>
+        <xfdu:contentUnit ID="Mask_Band_PVI_Unit" unitType="Data Unit">
+          <dataObjectPointer dataObjectID="Mask_Band_PVI_Data"/>
+        </xfdu:contentUnit>
+        <xfdu:contentUnit ID="QUALITMask_Band_A.m_Unit" unitType="Data Unit">
+          <dataObjectPointer dataObjectID="QUALITMask_Band_A.m_Data"/>
+        </xfdu:contentUnit>
+        <xfdu:contentUnit ID="QUALITMask_Band_9.m_Unit" unitType="Data Unit">
+          <dataObjectPointer dataObjectID="QUALITMask_Band_9.m_Data"/>
+        </xfdu:contentUnit>
+        <xfdu:contentUnit ID="CLDPRBMask_Band_20m_Unit" unitType="Data Unit">
+          <dataObjectPointer dataObjectID="CLDPRBMask_Band_20m_Data"/>
+        </xfdu:contentUnit>
+        <xfdu:contentUnit ID="QUALITMask_Band_7.m_Unit" unitType="Data Unit">
+          <dataObjectPointer dataObjectID="QUALITMask_Band_7.m_Data"/>
+        </xfdu:contentUnit>
+        <xfdu:contentUnit ID="QUALITMask_Band_1.m_Unit" unitType="Data Unit">
+          <dataObjectPointer dataObjectID="QUALITMask_Band_1.m_Data"/>
+        </xfdu:contentUnit>
+        <xfdu:contentUnit ID="CLASSIMask_Band_0.m_Unit" unitType="Data Unit">
+          <dataObjectPointer dataObjectID="CLASSIMask_Band_0.m_Data"/>
+        </xfdu:contentUnit>
+        <xfdu:contentUnit ID="DETFOOMask_Band_A.m_Unit" unitType="Data Unit">
+          <dataObjectPointer dataObjectID="DETFOOMask_Band_A.m_Data"/>
+        </xfdu:contentUnit>
+        <xfdu:contentUnit ID="SNWPRBMask_Band_60m_Unit" unitType="Data Unit">
+          <dataObjectPointer dataObjectID="SNWPRBMask_Band_60m_Data"/>
+        </xfdu:contentUnit>
+        <xfdu:contentUnit ID="DETFOOMask_Band_9.m_Unit" unitType="Data Unit">
+          <dataObjectPointer dataObjectID="DETFOOMask_Band_9.m_Data"/>
+        </xfdu:contentUnit>
+        <xfdu:contentUnit ID="DETFOOMask_Band_7.m_Unit" unitType="Data Unit">
+          <dataObjectPointer dataObjectID="DETFOOMask_Band_7.m_Data"/>
+        </xfdu:contentUnit>
+        <xfdu:contentUnit ID="QUALITY_Report_" repID="QUALITY_Report_Schema" unitType="Data Unit">
+          <dataObjectPointer dataObjectID="QUALITY_Report_InformationData_"/>
+        </xfdu:contentUnit>
+        <xfdu:contentUnit ID="QUALITMask_Band_2.m_Unit" unitType="Data Unit">
+          <dataObjectPointer dataObjectID="QUALITMask_Band_2.m_Data"/>
+        </xfdu:contentUnit>
+        <xfdu:contentUnit ID="DETFOOMask_Band_3.m_Unit" unitType="Data Unit">
+          <dataObjectPointer dataObjectID="DETFOOMask_Band_3.m_Data"/>
+        </xfdu:contentUnit>
+        <xfdu:contentUnit ID="DETFOOMask_Band_4.m_Unit" unitType="Data Unit">
+          <dataObjectPointer dataObjectID="DETFOOMask_Band_4.m_Data"/>
+        </xfdu:contentUnit>
+        <xfdu:contentUnit ID="DETFOOMask_Band_2.m_Unit" unitType="Data Unit">
+          <dataObjectPointer dataObjectID="DETFOOMask_Band_2.m_Data"/>
+        </xfdu:contentUnit>
+        <xfdu:contentUnit ID="QUALITMask_Band_3.m_Unit" unitType="Data Unit">
+          <dataObjectPointer dataObjectID="QUALITMask_Band_3.m_Data"/>
+        </xfdu:contentUnit>
+        <xfdu:contentUnit ID="QUALITMask_Band_4.m_Unit" unitType="Data Unit">
+          <dataObjectPointer dataObjectID="QUALITMask_Band_4.m_Data"/>
+        </xfdu:contentUnit>
+        <xfdu:contentUnit ID="DETFOOMask_Band_5.m_Unit" unitType="Data Unit">
+          <dataObjectPointer dataObjectID="DETFOOMask_Band_5.m_Data"/>
+        </xfdu:contentUnit>
+        <xfdu:contentUnit ID="DETFOOMask_Band_2.m_Unit" unitType="Data Unit">
+          <dataObjectPointer dataObjectID="DETFOOMask_Band_2.m_Data"/>
+        </xfdu:contentUnit>
+        <xfdu:contentUnit ID="CLDPRBMask_Band_60m_Unit" unitType="Data Unit">
+          <dataObjectPointer dataObjectID="CLDPRBMask_Band_60m_Data"/>
+        </xfdu:contentUnit>
+        <xfdu:contentUnit ID="QUALITMask_Band_5.m_Unit" unitType="Data Unit">
+          <dataObjectPointer dataObjectID="QUALITMask_Band_5.m_Data"/>
+        </xfdu:contentUnit>
+        <xfdu:contentUnit ID="SNWPRBMask_Band_20m_Unit" unitType="Data Unit">
+          <dataObjectPointer dataObjectID="SNWPRBMask_Band_20m_Data"/>
+        </xfdu:contentUnit>
+        <xfdu:contentUnit ID="QUALITMask_Band_2.m_Unit" unitType="Data Unit">
+          <dataObjectPointer dataObjectID="QUALITMask_Band_2.m_Data"/>
+        </xfdu:contentUnit>
+      </xfdu:contentUnit>
+      <xfdu:contentUnit ID="ANC_DATA" textInfo="Ancilliary datas">
+      </xfdu:contentUnit>
+      <xfdu:contentUnit ID="AUX_DATA" textInfo="Auxilliary datas">
+        <xfdu:contentUnit ID="Tile_ECMWF_Unit" unitType="Data Unit">
+          <dataObjectPointer dataObjectID="ECMWF_Data"/>
+        </xfdu:contentUnit>
+        <xfdu:contentUnit ID="Tile_CAMS_Unit" unitType="Data Unit">
+          <dataObjectPointer dataObjectID="CAMS_Data"/>
+        </xfdu:contentUnit>
+      </xfdu:contentUnit>
+    </xfdu:contentUnit>
+
+  </informationPackageMap>
+
+  <metadataSection>
+    <metadataObject ID="platform" category="DMD" classification="DESCRIPTION">
+
+    </metadataObject>
+    <metadataObject ID="processing" category="PDI" classification="PROVENANCE">
+
+    </metadataObject>
+    <metadataObject ID="acquisitionPeriod" category="DMD" classification="DESCRIPTION">
+
+    </metadataObject>
+    <metadataObject ID="measurementOrbitReference" category="DMD" classification="DESCRIPTION">
+
+    </metadataObject>
+    <metadataObject ID="measurementFrameSet" category="DMD" classification="DESCRIPTION">
+
+    </metadataObject>
+    <metadataObject ID="S2_Level-2A_Tile_Information" category="DMD" classification="DESCRIPTION">
+      <dataObjectPointer dataObjectID="S2_Level-2A_Tile_Metadata"/>
+    </metadataObject>
+    <metadataObject ID="S2_Level-2A_Tile_Schema" category="REP" classification="SYNTAX">
+      <metadataReference href="rep_info/S2_Level-2A_Tile_Metadata.xsd" locatorType="URL" mimeType="text/xml" vocabularyName="SDF"/>
+    </metadataObject>
+    <metadataObject ID="Inventory_Metadata_Schema" category="REP" classification="SYNTAX">
+      <metadataReference href="rep_info/Inventory_Metadata.xsd" locatorType="URL" mimeType="text/xml" vocabularyName="SDF"/>
+    </metadataObject>
+    <metadataObject ID="OLQC_Report_Schema" category="REP" classification="SYNTAX">
+      <metadataReference href="rep_info/OLQC_Report.xsd" locatorType="URL" mimeType="text/xml" vocabularyName="SDF"/>
+    </metadataObject>
+  </metadataSection>
+
+  <dataObjectSection>
+    <dataObject ID="S2_Level-2A_Tile_Metadata"  repID="S2_Level-2A_Tile_Schema">
+      <byteStream mimeType="text/xml" size="540502">
+        <fileLocation href="./MTD_TL.xml" locatorType="URL"/>
+        <checksum checksumName="SHA3-256">8ACD0047D2D940ED2928CBC5AE1B20A4FC400457FAB4DBCC9215318F9CF89172</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="IMG_DATA_Band_60m_1_Band" >
+      <byteStream mimeType="image/jpeg" size="3740033">
+        <fileLocation href="./IMG_DATA/R60m/T38SND_20250527T073631_B01_60m.jp2" locatorType="URL"/>
+        <checksum checksumName="SHA3-256">051A7DF04D0805C98BAB6F463015B05D1CC0286F00C21A47573F64F4135ECEFB</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="IMG_DATA_Band_60m_1_Band" >
+      <byteStream mimeType="image/jpeg" size="3748777">
+        <fileLocation href="./IMG_DATA/R60m/T38SND_20250527T073631_B05_60m.jp2" locatorType="URL"/>
+        <checksum checksumName="SHA3-256">9923FE1B02462B68B787C38332EFF452ED06F0EAD156C5039263DB433C6ED211</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="IMG_DATA_Band_60m_2_Band" >
+      <byteStream mimeType="image/jpeg" size="3747123">
+        <fileLocation href="./IMG_DATA/R60m/T38SND_20250527T073631_B09_60m.jp2" locatorType="URL"/>
+        <checksum checksumName="SHA3-256">B8CCF75DF619C3D3F917F78725AFDEFD4516F9CDA80EBAC00DB82767124E61C4</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="IMG_DATA_R60mBand" >
+      <byteStream mimeType="image/jpeg" size="114116">
+        <fileLocation href="./IMG_DATA/R60m/T38SND_20250527T073631_SCL_60m.jp2" locatorType="URL"/>
+        <checksum checksumName="SHA3-256">52671ADEFFBA9CCD18A79435ECD189B4862727402FCBF917DBE4C076E50A6BFE</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="IMG_DATA_Band_60m_4_Band" >
+      <byteStream mimeType="image/jpeg" size="3747616">
+        <fileLocation href="./IMG_DATA/R60m/T38SND_20250527T073631_B8A_60m.jp2" locatorType="URL"/>
+        <checksum checksumName="SHA3-256">CB22CFA5E9DF6D722E260143739A31AE1022F43A8B5896230F7C389821835170</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="IMG_DATA_Band_60m_3_Band" >
+      <byteStream mimeType="image/jpeg" size="3750118">
+        <fileLocation href="./IMG_DATA/R60m/T38SND_20250527T073631_B04_60m.jp2" locatorType="URL"/>
+        <checksum checksumName="SHA3-256">6521D3CA9930704E41E0732C5A05A08F30DE72EE318EEECCA387B64DF3974AC8</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="IMG_DATA_R60mBand" >
+      <byteStream mimeType="image/jpeg" size="600831">
+        <fileLocation href="./IMG_DATA/R60m/T38SND_20250527T073631_AOT_60m.jp2" locatorType="URL"/>
+        <checksum checksumName="SHA3-256">857FDC41F1DDEB1214FFB8D90F55B9660D52326B762D2409310BFA43E96CF505</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="IMG_DATA_Band_60m_5_Band" >
+      <byteStream mimeType="image/jpeg" size="3748844">
+        <fileLocation href="./IMG_DATA/R60m/T38SND_20250527T073631_B11_60m.jp2" locatorType="URL"/>
+        <checksum checksumName="SHA3-256">356EEA96DA91C382515B973D9A8DB445794C9314F04DBA7735D059AFC4C67ADC</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="IMG_DATA_R60mBand" >
+      <byteStream mimeType="image/jpeg" size="3761532">
+        <fileLocation href="./IMG_DATA/R60m/T38SND_20250527T073631_TCI_60m.jp2" locatorType="URL"/>
+        <checksum checksumName="SHA3-256">489019360268BC65ED0428A2A920C020EE2FFB3301B7CA872CF8B4FC21558350</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="IMG_DATA_Band_60m_1_Band" >
+      <byteStream mimeType="image/jpeg" size="3744440">
+        <fileLocation href="./IMG_DATA/R60m/T38SND_20250527T073631_B02_60m.jp2" locatorType="URL"/>
+        <checksum checksumName="SHA3-256">26C6AD26DC91FF3BB8B728C2D13A2FF1F1A8DF71CCC197CED1EC60737B0E70ED</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="IMG_DATA_Band_60m_2_Band" >
+      <byteStream mimeType="image/jpeg" size="3750241">
+        <fileLocation href="./IMG_DATA/R60m/T38SND_20250527T073631_B06_60m.jp2" locatorType="URL"/>
+        <checksum checksumName="SHA3-256">46E0D064B14BAC654ADB160EBE0693AC73A542B0A6084ED3E621543173AA8566</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="IMG_DATA_R60mBand" >
+      <byteStream mimeType="image/jpeg" size="3771962">
+        <fileLocation href="./IMG_DATA/R60m/T38SND_20250527T073631_WVP_60m.jp2" locatorType="URL"/>
+        <checksum checksumName="SHA3-256">BC2A2743B0159F117B50E1243A26954F341EEDF95A21AA0E92206E9160E4689B</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="IMG_DATA_Band_60m_6_Band" >
+      <byteStream mimeType="image/jpeg" size="3748385">
+        <fileLocation href="./IMG_DATA/R60m/T38SND_20250527T073631_B12_60m.jp2" locatorType="URL"/>
+        <checksum checksumName="SHA3-256">631C82E8D667B332A25153D61A82FD1089E22AD90279504C4B0D4F5A1455987C</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="IMG_DATA_Band_60m_2_Band" >
+      <byteStream mimeType="image/jpeg" size="3745563">
+        <fileLocation href="./IMG_DATA/R60m/T38SND_20250527T073631_B03_60m.jp2" locatorType="URL"/>
+        <checksum checksumName="SHA3-256">046E4CF90012898CE9EE1582272F6E463C4ECD77180F612B2361B6B62884468A</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="IMG_DATA_Band_60m_3_Band" >
+      <byteStream mimeType="image/jpeg" size="3752361">
+        <fileLocation href="./IMG_DATA/R60m/T38SND_20250527T073631_B07_60m.jp2" locatorType="URL"/>
+        <checksum checksumName="SHA3-256">575759FD0A8FFB955FA79096306A637F838097AB45E59966073B9C46F72AA8B6</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="IMG_DATA_Band_10m_1_Band" >
+      <byteStream mimeType="image/jpeg" size="118747209">
+        <fileLocation href="./IMG_DATA/R10m/T38SND_20250527T073631_B02_10m.jp2" locatorType="URL"/>
+        <checksum checksumName="SHA3-256">A64319373417F266211E1B36E6E8623CF879F3495D15ED3BAD7F7C3FBC33AB1A</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="IMG_DATA_Band_10m_2_Band" >
+      <byteStream mimeType="image/jpeg" size="123035020">
+        <fileLocation href="./IMG_DATA/R10m/T38SND_20250527T073631_B03_10m.jp2" locatorType="URL"/>
+        <checksum checksumName="SHA3-256">E31D3B2922D97D0E31E22FB5192A591294BFB51168A7807F3C8581A050DD4944</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="IMG_DATA_R10mBand" >
+      <byteStream mimeType="image/jpeg" size="85996236">
+        <fileLocation href="./IMG_DATA/R10m/T38SND_20250527T073631_WVP_10m.jp2" locatorType="URL"/>
+        <checksum checksumName="SHA3-256">7FF8E9EE58E32DB8E0E16CB5903D190238F7FBFE7A0BB12CBAD2DE3262EBC6E3</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="IMG_DATA_R10mBand" >
+      <byteStream mimeType="image/jpeg" size="135316752">
+        <fileLocation href="./IMG_DATA/R10m/T38SND_20250527T073631_TCI_10m.jp2" locatorType="URL"/>
+        <checksum checksumName="SHA3-256">24D9270EEE14B0D4B7C80ED5A66ED14C19CD6F66307081BD1ED85F7C34F66926</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="IMG_DATA_Band_10m_3_Band" >
+      <byteStream mimeType="image/jpeg" size="126073862">
+        <fileLocation href="./IMG_DATA/R10m/T38SND_20250527T073631_B04_10m.jp2" locatorType="URL"/>
+        <checksum checksumName="SHA3-256">C6091E6A910B0563973EA674D8FDF2D1457D2954D3951DC19673750169C2E70A</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="IMG_DATA_Band_10m_4_Band" >
+      <byteStream mimeType="image/jpeg" size="123168481">
+        <fileLocation href="./IMG_DATA/R10m/T38SND_20250527T073631_B08_10m.jp2" locatorType="URL"/>
+        <checksum checksumName="SHA3-256">5306E8E2CB54E11E5F1FD1DA9A7A945B7AB4FA1F25F2A94DD4A00D72D6A2D294</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="IMG_DATA_R10mBand" >
+      <byteStream mimeType="image/jpeg" size="2413368">
+        <fileLocation href="./IMG_DATA/R10m/T38SND_20250527T073631_AOT_10m.jp2" locatorType="URL"/>
+        <checksum checksumName="SHA3-256">3477E34982DDD645A90D0E089E447E632994CBBE955746EF2137051F095D7FEC</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="IMG_DATA_R20mBand" >
+      <byteStream mimeType="image/jpeg" size="27328772">
+        <fileLocation href="./IMG_DATA/R20m/T38SND_20250527T073631_WVP_20m.jp2" locatorType="URL"/>
+        <checksum checksumName="SHA3-256">B7B914E21245AEF6B3E26773B9E67EC7B975CD4FF8B53131C09D0330DAE1C136</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="IMG_DATA_Band_20m_6_Band" >
+      <byteStream mimeType="image/jpeg" size="33851403">
+        <fileLocation href="./IMG_DATA/R20m/T38SND_20250527T073631_B12_20m.jp2" locatorType="URL"/>
+        <checksum checksumName="SHA3-256">9987468848F69E86B9A8234F2531DBBF66672A62B497BF8830532A3DEBC23EAB</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="IMG_DATA_Band_20m_3_Band" >
+      <byteStream mimeType="image/jpeg" size="33851685">
+        <fileLocation href="./IMG_DATA/R20m/T38SND_20250527T073631_B07_20m.jp2" locatorType="URL"/>
+        <checksum checksumName="SHA3-256">ADECFD1B9DBA5B06FB1DE19597F938DF530E3A43BA589858AFB9F0659973C71A</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="IMG_DATA_Band_20m_2_Band" >
+      <byteStream mimeType="image/jpeg" size="33819925">
+        <fileLocation href="./IMG_DATA/R20m/T38SND_20250527T073631_B03_20m.jp2" locatorType="URL"/>
+        <checksum checksumName="SHA3-256">B34B4E3830C203A561055647CB42F032C2FBCB3514C75F8F8B391408409318EE</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="IMG_DATA_Band_20m_2_Band" >
+      <byteStream mimeType="image/jpeg" size="33863779">
+        <fileLocation href="./IMG_DATA/R20m/T38SND_20250527T073631_B06_20m.jp2" locatorType="URL"/>
+        <checksum checksumName="SHA3-256">2FBCE8C89B5DB0D67C7776979D264EF09E77D4A9D2CCE98D9FCEDE31B4F9A776</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="IMG_DATA_Band_20m_1_Band" >
+      <byteStream mimeType="image/jpeg" size="33886065">
+        <fileLocation href="./IMG_DATA/R20m/T38SND_20250527T073631_B02_20m.jp2" locatorType="URL"/>
+        <checksum checksumName="SHA3-256">E6815EFC8BC98FB2D22B6941A7FC467A978B65B355A903CBD4C1D8B7C934BAF0</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="IMG_DATA_R20mBand" >
+      <byteStream mimeType="image/jpeg" size="1994284">
+        <fileLocation href="./IMG_DATA/R20m/T38SND_20250527T073631_AOT_20m.jp2" locatorType="URL"/>
+        <checksum checksumName="SHA3-256">CE50C7F0CC1D52FF7E6FFB60C08A54BC506A29DB464F465C53E0301D4338D2E5</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="IMG_DATA_Band_20m_3_Band" >
+      <byteStream mimeType="image/jpeg" size="33752037">
+        <fileLocation href="./IMG_DATA/R20m/T38SND_20250527T073631_B04_20m.jp2" locatorType="URL"/>
+        <checksum checksumName="SHA3-256">A19DBD56B276E3F6A972DB46706D02D222D3C9EB3C6FE19A3978619FC5A501B5</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="IMG_DATA_Band_20m_5_Band" >
+      <byteStream mimeType="image/jpeg" size="33731342">
+        <fileLocation href="./IMG_DATA/R20m/T38SND_20250527T073631_B11_20m.jp2" locatorType="URL"/>
+        <checksum checksumName="SHA3-256">F5E678B2BD257050445D9ECECD4359DAEB45B5058DA21737A899111324CEF093</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="IMG_DATA_R20mBand" >
+      <byteStream mimeType="image/jpeg" size="33838628">
+        <fileLocation href="./IMG_DATA/R20m/T38SND_20250527T073631_TCI_20m.jp2" locatorType="URL"/>
+        <checksum checksumName="SHA3-256">FDEEEDC89964A72494BCBDBA36CEA924ACECD2F4703646DD72081DFD8CC1B3D2</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="IMG_DATA_Band_20m_1_Band" >
+      <byteStream mimeType="image/jpeg" size="33914485">
+        <fileLocation href="./IMG_DATA/R20m/T38SND_20250527T073631_B05_20m.jp2" locatorType="URL"/>
+        <checksum checksumName="SHA3-256">1B4627961D47C20B85C33CF96F6E1E7A8C4F397A8EFBD1C64578441BC6DF0556</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="IMG_DATA_Band_20m_1_Band" >
+      <byteStream mimeType="image/jpeg" size="21028761">
+        <fileLocation href="./IMG_DATA/R20m/T38SND_20250527T073631_B01_20m.jp2" locatorType="URL"/>
+        <checksum checksumName="SHA3-256">5DAB414C7F38F3C40853358DD0A66401EFFF69F758F607CEF1B61B09791EC006</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="IMG_DATA_R20mBand" >
+      <byteStream mimeType="image/jpeg" size="533274">
+        <fileLocation href="./IMG_DATA/R20m/T38SND_20250527T073631_SCL_20m.jp2" locatorType="URL"/>
+        <checksum checksumName="SHA3-256">92A20DF2565FB7974C182A401588D30DA16B11976E099B850DD84A9AEA6D2278</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="IMG_DATA_Band_20m_4_Band" >
+      <byteStream mimeType="image/jpeg" size="33889252">
+        <fileLocation href="./IMG_DATA/R20m/T38SND_20250527T073631_B8A_20m.jp2" locatorType="URL"/>
+        <checksum checksumName="SHA3-256">18308EB5E7CFFC1B29192C6F07EE36F8F8BE3AD5F82879DF75C58428C6BF386B</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="ECMWF_Data" >
+      <byteStream mimeType="unknown" size="1620">
+        <fileLocation href="./AUX_DATA/AUX_ECMWFT" locatorType="URL"/>
+        <checksum checksumName="SHA3-256">DB84601825DF3744EF54DC92F6F54BF93ECB965A1B8B00D15375615F15E1A749</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="CAMS_Data" >
+      <byteStream mimeType="unknown" size="2970">
+        <fileLocation href="./AUX_DATA/AUX_CAMSFO" locatorType="URL"/>
+        <checksum checksumName="SHA3-256">657CF25252B4503C92279A8404BCEF042608863EAFC18D8CFC47CFBF12701FF5</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="QUALITMask_Band_1.m_Data" >
+      <byteStream mimeType="image/jpeg" size="14764">
+        <fileLocation href="./QI_DATA/MSK_QUALIT_B01.jp2" locatorType="URL"/>
+        <checksum checksumName="SHA3-256">5EEC2B6B7289822AFC676758CBCE9358BD3C3207D16FD4D63AA873520D5918EA</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="QUALITMask_Band_6.m_Data" >
+      <byteStream mimeType="image/jpeg" size="13997">
+        <fileLocation href="./QI_DATA/MSK_QUALIT_B06.jp2" locatorType="URL"/>
+        <checksum checksumName="SHA3-256">A8064DFFEF38E38A1931DFBB376A23FBE102D1DA87FF94A0601382E2F2A78856</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="QUALITMask_Band_8.m_Data" >
+      <byteStream mimeType="image/jpeg" size="56797">
+        <fileLocation href="./QI_DATA/MSK_QUALIT_B08.jp2" locatorType="URL"/>
+        <checksum checksumName="SHA3-256">1A1079A215CE005F34A1D6FF5EAD592A4FAA52FC805E8F9BD25C481347636CC8</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="DETFOOMask_Band_0.m_Data" >
+      <byteStream mimeType="image/jpeg" size="19982">
+        <fileLocation href="./QI_DATA/MSK_DETFOO_B10.jp2" locatorType="URL"/>
+        <checksum checksumName="SHA3-256">8E7659851C13DE0AC55725D46E4A70DA541847C9E0ADEEB4C9BB97C26C47A4EE</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="DETFOOMask_Band_1.m_Data" >
+      <byteStream mimeType="image/jpeg" size="20023">
+        <fileLocation href="./QI_DATA/MSK_DETFOO_B01.jp2" locatorType="URL"/>
+        <checksum checksumName="SHA3-256">0D1E359338AB1D2E2BC664827C87914C4D298BCF64D259AD6A691F2C26DD66FE</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="DETFOOMask_Band_6.m_Data" >
+      <byteStream mimeType="image/jpeg" size="37422">
+        <fileLocation href="./QI_DATA/MSK_DETFOO_B06.jp2" locatorType="URL"/>
+        <checksum checksumName="SHA3-256">EE1AC3A656600245C7F43234631D164C9FD929F5296CE0EEE45CFB98273C2E73</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="DETFOOMask_Band_8.m_Data" >
+      <byteStream mimeType="image/jpeg" size="84489">
+        <fileLocation href="./QI_DATA/MSK_DETFOO_B08.jp2" locatorType="URL"/>
+        <checksum checksumName="SHA3-256">4DF42F63716D1F2DDBF96874785949C730F36A5279A1332C7F80D2B396170B53</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="QUALITMask_Band_0.m_Data" >
+      <byteStream mimeType="image/jpeg" size="19427">
+        <fileLocation href="./QI_DATA/MSK_QUALIT_B10.jp2" locatorType="URL"/>
+        <checksum checksumName="SHA3-256">9DB4211A4EC8888D8029366E8D173FDA90FB5706EECC04DB7653D654F14BDF99</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="DETFOOMask_Band_1.m_Data" >
+      <byteStream mimeType="image/jpeg" size="37437">
+        <fileLocation href="./QI_DATA/MSK_DETFOO_B11.jp2" locatorType="URL"/>
+        <checksum checksumName="SHA3-256">533A46C061498B1E871C70FC694C72C59A49D58C3FC4F74550C72638796800A3</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="Mask_Band_PVI_Data" >
+      <byteStream mimeType="image/jpeg" size="177920">
+        <fileLocation href="./QI_DATA/T38SND_20250527T073631_PVI.jp2" locatorType="URL"/>
+        <checksum checksumName="SHA3-256">1677ACA97BABB5E0AF08C9D9F9EBC4783B0FC4A222C188C5B2993BB267EB2443</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="QUALITMask_Band_A.m_Data" >
+      <byteStream mimeType="image/jpeg" size="14008">
+        <fileLocation href="./QI_DATA/MSK_QUALIT_B8A.jp2" locatorType="URL"/>
+        <checksum checksumName="SHA3-256">6AC526041368FD981A3C965CD62E1B212AE54CC9F8AAF7F3EFCD6649F5C528F4</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="QUALITMask_Band_9.m_Data" >
+      <byteStream mimeType="image/jpeg" size="14764">
+        <fileLocation href="./QI_DATA/MSK_QUALIT_B09.jp2" locatorType="URL"/>
+        <checksum checksumName="SHA3-256">5EEC2B6B7289822AFC676758CBCE9358BD3C3207D16FD4D63AA873520D5918EA</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="CLDPRBMask_Band_20m_Data" >
+      <byteStream mimeType="image/jpeg" size="270317">
+        <fileLocation href="./QI_DATA/MSK_CLDPRB_20m.jp2" locatorType="URL"/>
+        <checksum checksumName="SHA3-256">A3F6928101AAF55A7C08DE9A2ED92780226AF4B775BC149CBAFFDB44A34B9F12</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="QUALITMask_Band_7.m_Data" >
+      <byteStream mimeType="image/jpeg" size="14014">
+        <fileLocation href="./QI_DATA/MSK_QUALIT_B07.jp2" locatorType="URL"/>
+        <checksum checksumName="SHA3-256">B322E34B67DA022E03142F7FD778855A53370D302BCD675F4F9C4FE6CBCF2324</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="QUALITMask_Band_1.m_Data" >
+      <byteStream mimeType="image/jpeg" size="24929">
+        <fileLocation href="./QI_DATA/MSK_QUALIT_B11.jp2" locatorType="URL"/>
+        <checksum checksumName="SHA3-256">ED66D6AF86A8AC55152ECB910E603855498128FB92CC89357E484CC6834A5772</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="CLASSIMask_Band_0.m_Data" >
+      <byteStream mimeType="image/jpeg" size="9245">
+        <fileLocation href="./QI_DATA/MSK_CLASSI_B00.jp2" locatorType="URL"/>
+        <checksum checksumName="SHA3-256">23A0F94D5D0D3709D5C3E68E43A95D44711CD7C8A5E83BEE0428F9278FFDE426</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="DETFOOMask_Band_A.m_Data" >
+      <byteStream mimeType="image/jpeg" size="37522">
+        <fileLocation href="./QI_DATA/MSK_DETFOO_B8A.jp2" locatorType="URL"/>
+        <checksum checksumName="SHA3-256">F39ED0165D4DA2C5A5DAA82FA58A98CB81E484534B4B7B2B6DD0D2E30A5193E2</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="SNWPRBMask_Band_60m_Data" >
+      <byteStream mimeType="image/jpeg" size="13995">
+        <fileLocation href="./QI_DATA/MSK_SNWPRB_60m.jp2" locatorType="URL"/>
+        <checksum checksumName="SHA3-256">8350786B7C44B900EBB3EAE8E9F1A86D995DDDD2A921C29A56767184D6B4E83B</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="DETFOOMask_Band_9.m_Data" >
+      <byteStream mimeType="image/jpeg" size="20050">
+        <fileLocation href="./QI_DATA/MSK_DETFOO_B09.jp2" locatorType="URL"/>
+        <checksum checksumName="SHA3-256">4EF319615F4C205EA4E7ED6A34DAAB569557EC29072A9D957F48427139308996</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="DETFOOMask_Band_7.m_Data" >
+      <byteStream mimeType="image/jpeg" size="37526">
+        <fileLocation href="./QI_DATA/MSK_DETFOO_B07.jp2" locatorType="URL"/>
+        <checksum checksumName="SHA3-256">B7D089F2FA79178181EE82A9C5C8FEF710B4FDA6484CA91F9F7245EE6072F394</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="QUALITY_Report_InformationData_"  repID="QUALITY_Report_Schema">
+      <byteStream mimeType="text/xml" size="7669">
+        <fileLocation href="./QI_DATA/L2A_QUALITY.xml" locatorType="URL"/>
+        <checksum checksumName="SHA3-256">A156E79EF0849925F4A7B73CBA14E1C9FD647FECA270B6CB508525A60A93AD5A</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="QUALITMask_Band_2.m_Data" >
+      <byteStream mimeType="image/jpeg" size="25234">
+        <fileLocation href="./QI_DATA/MSK_QUALIT_B12.jp2" locatorType="URL"/>
+        <checksum checksumName="SHA3-256">CEA5B1A9189606A394BFD1AAFEA8F1EDB14293C7DFAC8E1B3F51D771B2379324</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="DETFOOMask_Band_3.m_Data" >
+      <byteStream mimeType="image/jpeg" size="84567">
+        <fileLocation href="./QI_DATA/MSK_DETFOO_B03.jp2" locatorType="URL"/>
+        <checksum checksumName="SHA3-256">05DF9A4B87E991484E815E9EAC918E33073DB013706A699CF9A9847136C1A0C4</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="DETFOOMask_Band_4.m_Data" >
+      <byteStream mimeType="image/jpeg" size="84822">
+        <fileLocation href="./QI_DATA/MSK_DETFOO_B04.jp2" locatorType="URL"/>
+        <checksum checksumName="SHA3-256">8FAC70665E22FC25FDB90D6DFF421D59BF2448F6EBBD921F4A56E0B3FD865229</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="DETFOOMask_Band_2.m_Data" >
+      <byteStream mimeType="image/jpeg" size="37570">
+        <fileLocation href="./QI_DATA/MSK_DETFOO_B12.jp2" locatorType="URL"/>
+        <checksum checksumName="SHA3-256">DED65314C642AD588B96B4270A81D1B32CB0B8BE9B5CA3F48F2606E577CBD66D</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="QUALITMask_Band_3.m_Data" >
+      <byteStream mimeType="image/jpeg" size="56669">
+        <fileLocation href="./QI_DATA/MSK_QUALIT_B03.jp2" locatorType="URL"/>
+        <checksum checksumName="SHA3-256">A064CF3A3BF0A3E29FEE4EF3257F892866D1A2AD5761E89BA5FE1B1AC5F411CA</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="QUALITMask_Band_4.m_Data" >
+      <byteStream mimeType="image/jpeg" size="56743">
+        <fileLocation href="./QI_DATA/MSK_QUALIT_B04.jp2" locatorType="URL"/>
+        <checksum checksumName="SHA3-256">E135C72A1C219CB51836C438E00AAB24AD1A2DBA63AE83F83B425C17DE230D64</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="DETFOOMask_Band_5.m_Data" >
+      <byteStream mimeType="image/jpeg" size="37407">
+        <fileLocation href="./QI_DATA/MSK_DETFOO_B05.jp2" locatorType="URL"/>
+        <checksum checksumName="SHA3-256">D7FB86476A729F71FB2C4ABB3784680D65F8E30F27EDC78E09238CF6A4AA32DC</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="DETFOOMask_Band_2.m_Data" >
+      <byteStream mimeType="image/jpeg" size="84514">
+        <fileLocation href="./QI_DATA/MSK_DETFOO_B02.jp2" locatorType="URL"/>
+        <checksum checksumName="SHA3-256">C22707B85DD42E9E01AAB5064E5B852D6820A4808D0C2FE5E55267ADF72F6CB7</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="CLDPRBMask_Band_60m_Data" >
+      <byteStream mimeType="image/jpeg" size="70692">
+        <fileLocation href="./QI_DATA/MSK_CLDPRB_60m.jp2" locatorType="URL"/>
+        <checksum checksumName="SHA3-256">5DDAFF95EF5799D6023BB729980511892CE2F1129A926C648840784A342E5AA5</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="QUALITMask_Band_5.m_Data" >
+      <byteStream mimeType="image/jpeg" size="13997">
+        <fileLocation href="./QI_DATA/MSK_QUALIT_B05.jp2" locatorType="URL"/>
+        <checksum checksumName="SHA3-256">A8064DFFEF38E38A1931DFBB376A23FBE102D1DA87FF94A0601382E2F2A78856</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="SNWPRBMask_Band_20m_Data" >
+      <byteStream mimeType="image/jpeg" size="24843">
+        <fileLocation href="./QI_DATA/MSK_SNWPRB_20m.jp2" locatorType="URL"/>
+        <checksum checksumName="SHA3-256">9AA9954B5D5770EDD74159CAAC5938F8F8A41DCAD686B041B4A77E8C8CBC98E7</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="QUALITMask_Band_2.m_Data" >
+      <byteStream mimeType="image/jpeg" size="56653">
+        <fileLocation href="./QI_DATA/MSK_QUALIT_B02.jp2" locatorType="URL"/>
+        <checksum checksumName="SHA3-256">9890F429AE6A0B8355008B8931EE4A47F1B1AE67D03CAA2DB844C303ADBD18AB</checksum>
+      </byteStream>
+    </dataObject>
+
+  </dataObjectSection>
+
+</xfdu:XFDU>
