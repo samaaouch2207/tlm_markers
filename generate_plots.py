@@ -14,7 +14,7 @@ from matplotlib.lines import Line2D
 
 def print_usage():
     print(f"Usage: python {sys.argv[0]} <DS_NAME> [mode]")
-    print("  DS_NAME: DS1, DS2, KAYRROS, or DS2_KAYRROS")
+    print("  DS_NAME: DS1, DS2, KAYRROS, DS2_KAYRROS, DS2_NTILE1")
     print("  mode (optional, default=online): local or online")
     sys.exit(1)
 
@@ -28,6 +28,8 @@ def get_csv_pattern(dataset_name):
         return "KAYRROS"
     elif dataset_name == "DS2_KAYRROS":
         return "DS_2CPS_20250527T093652_S20250527T075023_KAYRROS"
+    elif dataset_name == "DS2_NTILE1":
+        return "DS_2CPS_20250527T093652_S20250527T075023_IPF_NTILE1"
     else:
         raise ValueError(f"Invalid dataset name '{dataset_name}'. Expected one of: DS1, DS2, KAYRROS, DS2_KAYRROS")
 
@@ -51,11 +53,11 @@ print(f"Mode: {mode}")
 
 # ----------------------------------------------------------------------
 # 1. Read the two tables ------------------------------------------------
-SMALL_CROP_PATH = Path(f"{DS_NAME}_{mode}_small_crop.csv")   # SMALL  crop   (rename if needed)
-SMALL2T_CROP_PATH = Path(f"{DS_NAME}_{mode}_small2t_crop.csv")   # SMALL 2-tiles crop   (rename if needed)
-MEDIUM_CROP_PATH = Path(f"{DS_NAME}_{mode}_medium_crop.csv")   # MEDIUM  crop   (rename if needed)
-BIG_CROP_PATH = Path(f"{DS_NAME}_{mode}_big_crop.csv")   # BIG    crop   (rename if needed)
-HUGE_CROP_PATH = Path(f"{DS_NAME}_{mode}_huge_crop.csv")   # HUGE    crop   (rename if needed)
+SMALL_CROP_PATH = Path(f"benchmark_results/{CSV_PATTERN}_{mode}_small_crop.csv")   # SMALL  crop   (rename if needed)
+SMALL2T_CROP_PATH = Path(f"benchmark_results/{CSV_PATTERN}_{mode}_small2t_crop.csv")   # SMALL 2-tiles crop   (rename if needed)
+MEDIUM_CROP_PATH = Path(f"benchmark_results/{CSV_PATTERN}_{mode}_medium_crop.csv")   # MEDIUM  crop   (rename if needed)
+BIG_CROP_PATH = Path(f"benchmark_results/{CSV_PATTERN}_{mode}_big_crop.csv")   # BIG    crop   (rename if needed)
+HUGE_CROP_PATH = Path(f"benchmark_results/{CSV_PATTERN}_{mode}_huge_crop.csv")   # HUGE    crop   (rename if needed)
 
 
 # ----------------------------------------------------------------------
@@ -204,11 +206,11 @@ ax.set_xticks(x)
 ax.set_xticklabels(categories)
 ax.set_xlabel("Resolution")
 ax.set_ylabel("Time ratio (time_no_tlm / time_tlm)")
-ax.set_title(f"Faster time ratio comparison for {DS_NAME}")
+ax.set_title(f"Faster time ratio comparison for {CSV_PATTERN}_{mode}")
 ax.grid(axis="y", linestyle="--", alpha=0.6)
 
 ax.legend()
 
 plt.tight_layout()
 fig.subplots_adjust(top=0.9)  # increase top margin
-plt.savefig(f"{DS_NAME}_{mode}_bars_plot.png", dpi=300)
+plt.savefig(f"{CSV_PATTERN}_{mode}_bars_plot.png", dpi=300)
