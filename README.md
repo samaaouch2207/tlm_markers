@@ -114,7 +114,7 @@ git init
 git remote add origin https://github.com/yourusername/yourrepo.git
 
 # Create a local branch (if don't want to work in main branch)
-git checkout -b scripts
+git checkout -b img
 
 # Initialize LFS in your repo
 git lfs install
@@ -166,11 +166,11 @@ Results are written to a CSV file.
 
 ### Usage
 ``` bash
-./sentinel-2-jp2-tlm/benchmark_table.sh {DS1|DS2|KAYRROS|DS2_KAYRROS} {small|big|original} [online|local]
+./sentinel-2-jp2-tlm/benchmark_table.sh {DS1|DS2|KAYRROS|DS2_KAYRROS|DS2_NTILE1} {small|big|original} [online|local]
 ```
 
 ### Arguments
-1. **Dataset:** `DS1`, `DS2`, `KAYRROS`, `DS2_KAYRROS`
+1. **Dataset:** `DS1`, `DS2`, `KAYRROS`, `DS2_KAYRROS`, `DS2_NTILE1`
 2. **Crop size:** `small`, `big`, `original` *(also supported: `small2t`, `medium`, `huge`)*
 3. **Mode** *(optional, default = `online`):*
     - `online`: fetch images via /vsicurl/ (GitHub)
@@ -193,6 +193,10 @@ Results are written to a CSV file.
   - **No TLM**: `CDSE/DS2/.../IMG_DATA` (Sentinel-2 L2A product from CDSE)  
   - **With TLM**: `outputs/DS2/KAYRROS_L2_TLM/` (Kayrros reprocessed version with TLM markers)  
 
+- **DS2_NTILE1**
+  - **No TLM**: `CDSE/DS2/.../IMG_DATA` (Sentinel-2 L2A product from CDSE)
+  - **With TLM**: `outputs_nbTile1_IPFL2/S2_L2_ORCH/.../IMG_DATA` (reprocessed product with TLM markers nb-tile = 1)  
+
 ### Example
 ``` bash
 ./sentinel-2-jp2-tlm/benchmark_table.sh DS1 small online
@@ -209,6 +213,7 @@ Benchmarks all JP2 bands from **DS1**, extracts a small crop, and compares perfo
 | DS2            | DS_2CPS_20250527T093652_S20250527T075023       | Sentinel-2 test dataset 2            |
 | KAYRROS        | KAYRROS                                         | KAYRROS dataset                       |
 | DS2_KAYRROS    | DS_2CPS_20250527T093652_S20250527T075023_KAYRROS | Combined DS2 and KAYRROS dataset     |
+| DS2_NTILE1     | DS_2CPS_20250527T093652_S20250527T075023_IPF_NTILE1 |  Sentinel-2 test dataset 2 with nb-tile=1 |
 
 **CSV file format:** 
 
@@ -243,7 +248,7 @@ This Python script compares `x_Faster` values between different benchmark tables
 ```bash
 python3.9 generate_plots.py <DS_NAME> [mode]
 ```
-- **DS_NAME**: `DS1`, `DS2`, `KAYRROS`, `DS2_KAYRROS`
+- **DS_NAME**: `DS1`, `DS2`, `KAYRROS`, `DS2_KAYRROS`, `DS2_NTILE1`
 - **Mode** *(optional, default = `online`):* local or online
 
 ### Example:
